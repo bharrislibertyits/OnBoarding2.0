@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Time_to_Complete__c</fullName>
+    <description>The number of days of study taken to prepare and pass the test</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The number of days of study taken to prepare and pass the test. Please enter in sum of work time vs. calendar time.  For example, a month at 50% would be 15 days.</inlineHelpText>
+    <label>Time to Complete</label>
+    <precision>4</precision>
+    <required>false</required>
+    <scale>1</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <dynamicChoiceSets>
+        <name>Jobs2</name>
+        <dataType>Picklist</dataType>
+        <displayField xsi:nil="true"/>
+        <object xsi:nil="true"/>
+        <picklistField>Jobs__c</picklistField>
+        <picklistObject>Discipline__c</picklistObject>
+    </dynamicChoiceSets>
+    <interviewLabel>DemoFlow {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>DemoFlow</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Flow</processType>
+    <recordCreates>
+        <name>NewRec</name>
+        <label>NewRec</label>
+        <locationX>321</locationX>
+        <locationY>488</locationY>
+        <inputAssignments>
+            <field>Jobs__c</field>
+            <value>
+                <stringValue>Admin</stringValue>
+            </value>
+        </inputAssignments>
+        <object>Discipline__c</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordCreates>
+    <screens>
+        <name>DemoFlow</name>
+        <label>DemoFlow</label>
+        <locationX>438</locationX>
+        <locationY>246</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <connector>
+            <targetReference>NewRec</targetReference>
+        </connector>
+        <fields>
+            <name>Jobs</name>
+            <choiceReferences>Jobs2</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>Jobs</fieldText>
+            <fieldType>MultiSelectCheckboxes</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <start>
+        <locationX>50</locationX>
+        <locationY>50</locationY>
+        <connector>
+            <targetReference>DemoFlow</targetReference>
+        </connector>
+    </start>
+    <status>Draft</status>
+</Flow>

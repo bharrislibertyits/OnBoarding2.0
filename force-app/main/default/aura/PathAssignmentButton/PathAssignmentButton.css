@@ -1,0 +1,33 @@
+.THIS .whitebackground{
+    background-color: white;
+}
+
+.THIS.toggleOff {
+    display: none;
+}
+
+.THIS.toggleOn {
+    display: block;
+}
+
+.THIS .center {
+  	position: relative;
+}
+
+.THIS .large-btn {
+    text-align: center;
+    vertical-align: middle;
+    justify-content: center;
+    background-color: rgb(0, 112, 210);
+    color: rgb(255, 255, 255);
+    height: 100px;
+    width: 200px;
+    line-height: 100px;
+    border-radius: 25px;
+}
+
+.THIS .large-btn:hover {
+    cursor: hand;
+    cursor: pointer;
+    opacity: .9;
+}

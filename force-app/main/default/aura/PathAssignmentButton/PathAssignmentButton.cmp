@@ -1,0 +1,14 @@
+<aura:component implements="flexipage:availableForAllPageTypes" access="global" >
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+
+    <div aura:id="initialScreen">
+        <div class="slds-col whitebackground center">
+            <div class="large-btn" onclick="{!c.handleAssignUser}">
+            	Assign a User a Path
+            </div>
+        </div>
+    </div>
+    <div aura:id="assignPathScreen">
+        <c:PathAssignmentCmp />
+    </div>
+</aura:component>

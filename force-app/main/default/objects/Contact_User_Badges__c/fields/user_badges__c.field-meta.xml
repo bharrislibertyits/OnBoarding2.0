@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>user_badges__c</fullName>
+    <externalId>false</externalId>
+    <label>User Badge</label>
+    <referenceTo>trailheadapp__User_Badge__c</referenceTo>
+    <relationshipLabel>Contact User Badges</relationshipLabel>
+    <relationshipName>Contact_User_Badges</relationshipName>
+    <relationshipOrder>1</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>true</writeRequiresMasterRead>
+</CustomField>

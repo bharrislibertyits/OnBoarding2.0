@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>salesforce.admin@libertyits.com</contactEmail>
+    <label>Github Actions</label>
+    <oauthConfig>
+        <callbackUrl>http://localhost:1717/OauthRedirect</callbackUrl>
+        <certificate>MIIFfTCCA2UCFAZzXYSVYkMLw/bMX0bQ1sBZjDjLMA0GCSqGSIb3DQEBCwUAMHsxCzAJBgNVBAYTAlVTMREwDwYDVQQIDAhWaXJnaW5pYTEUMBIGA1UECgwLTGliZXJ0eSBJVFMxEzARBgNVBAsMClNhbGVzZm9yY2UxLjAsBgkqhkiG9w0BCQEWH3NhbGVzZm9yY2UuYWRtaW5AbGliZXJ0eWl0cy5jb20wHhcNMjAwNDAxMjE0NDQ3WhcNMjUwMzMxMjE0NDQ3WjB7MQswCQYDVQQGEwJVUzERMA8GA1UECAwIVmlyZ2luaWExFDASBgNVBAoMC0xpYmVydHkgSVRTMRMwEQYDVQQLDApTYWxlc2ZvcmNlMS4wLAYJKoZIhvcNAQkBFh9zYWxlc2ZvcmNlLmFkbWluQGxpYmVydHlpdHMuY29tMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA0nZcfjE0rrZIW82/qvt34J8bbCh54NswknzBgvyL4ikm9UzTQ2/p9T0CjhKExFkHuGv0jvXTD0KoFMeoVZ0OMgzEAxaZXA4TUPy0qZkaZVC0L0CX+4HKthCecGzixPlj71lal8QBiQYBOOuEOK7p6mK51lzQLfHegZ2cfBXgRPBiFx3WaYF4eQLnz6MXzKvDSgL3KWKHPJuGMxFVLsbPm8MyGGvfOrpTiFaFWnIBaA6pUauDCU1FjOnJuCvyls9lno5WUEuwe0io5iSGlF0/eudlkKygSVH4Bl7SSVSlIZlHLsm6GzM5U8YCGvevWnyEFNzeScS49w7FbfQfHUQ/rBXWKpwSTqmBX5VmAUidpQNcK8PGPXD0zXhmsqWlKLWQXLD/qY8hhpETaiys0/wX4f9WeSu8BSnPbTuJkuD9vMCFgnEyviwZnrzTdTyJ1vkCON5BjdrTVWvJPUOlPnkEUovCP6L8llKD7g0oYDqCE37eZhgaUUTqKtw/X5rWgTJoFrEq8o9ffw9Bzz08S/AVAU3U4aoDrq9Kx/0+VT+xX7SvJ/F7vLifvpGoaXPMxVYjf5bCyWo8fHxogl+GlSTA4Zbu0Y3wjOAP6Dgvk22RbbLGs/rpUD5By5xAnnic6X0ZUhx7QmowwRwyDfREnfuMXcHwSsylFiImlu+j5AVLYUcCAwEAATANBgkqhkiG9w0BAQsFAAOCAgEAPNDephJwCVuXdcgSDETWDnrA2PjDL2Lyq3VSRnlakGhSPvyhqY9D+rFZYFUxv59ei+gsI46ZRoT9UXKfh7WNlhIutYz4YzRVrwrcjefRzZrYD4N4hxeqsRxnMwCwR/VH6Mja3fAqtWlE1jdWLpJT1PT+KLYobc2IlvBjDjLIjRCqbIx0Iut4KZwhK1C/7UkEsI7VBcmPqbE1XNc77MxXHg7n7D/bkb98j3Fi8s8cylOZLzEWwdQ40BlcUmVmUT2xM27T4mH7c7ewzNEU6RqvwAic5dLmOEtYK3vuIdPQlLkFRd/L9QkYGd2hdUl5GUBuIumUB9DtMioBog7mwi3fviXJa0euDBHBhfSqydO8ozrjK9X30mRMG4L5PLJIx4yUtIe1YIhyKN/LCcjdjeKkKeV0+7W7+fbR3DCg0gYC0tqB8ikkl851LDCVqEv7zyV6kzdjnatV+x8prS9jLSjmODh7khLRjXrv6uQRbQazwARuuYS5hqCR/VVf/Aj8GknL+m783rP6yJLNoQ2ThSYbzic7qRuua4XEkbjD1P2sTTaxm7lvn4JCLaI7HozeZsXgiaq3V16Pgaze/giAsTB2jRV0WXF/GJMAPY3ImZXYlMRrmkCuEBayWIy77qISknxW6MNLsaG2All0KyCkp728eby4B1IoXBuvn1/bEE7jyGc=</certificate>
+        <consumerKey>3MVG99E3Ry5mh4zqNsp6HovAR3lt2Ol1bEIXDumGsH.cLHE3inf0n2leOj3YvGBASjTkajuNXfeCl1P332q6U</consumerKey>
+        <isAdminApproved>true</isAdminApproved>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <scopes>Api</scopes>
+        <scopes>Web</scopes>
+        <scopes>RefreshToken</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>ENFORCE</ipRelaxation>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+    <permissionSetName>Github Actions CI</permissionSetName>
+</ConnectedApp>

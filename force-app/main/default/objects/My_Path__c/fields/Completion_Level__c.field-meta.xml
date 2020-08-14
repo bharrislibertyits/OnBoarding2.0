@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Completion_Level__c</fullName>
+    <description>Percentage of steps that have been completed along the path</description>
+    <externalId>false</externalId>
+    <formula>Step_Completion_Count__c /  Step_Count__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Percentage of steps that have been completed along the path</inlineHelpText>
+    <label>Completion Level</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

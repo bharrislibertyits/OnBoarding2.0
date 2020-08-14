@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Skill__c</fullName>
+    <description>Salesforce Related Skill</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Please select a skill.</inlineHelpText>
+    <label>Skill</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Apex</fullName>
+                <default>false</default>
+                <label>Apex</label>
+            </value>
+            <value>
+                <fullName>Automated Testing</fullName>
+                <default>false</default>
+                <label>Automated Testing</label>
+            </value>
+            <value>
+                <fullName>Case Managment</fullName>
+                <default>false</default>
+                <label>Case Managment</label>
+            </value>
+            <value>
+                <fullName>Code Control/Dev Process</fullName>
+                <default>false</default>
+                <label>Code Control/Dev Process</label>
+            </value>
+            <value>
+                <fullName>Communities</fullName>
+                <default>false</default>
+                <label>Communities</label>
+            </value>
+            <value>
+                <fullName>Content Management/Knowledge/Files</fullName>
+                <default>false</default>
+                <label>Content Management/Knowledge/Files</label>
+            </value>
+            <value>
+                <fullName>Continuous Integration</fullName>
+                <default>false</default>
+                <label>Continuous Integration</label>
+            </value>
+            <value>
+                <fullName>Copado</fullName>
+                <default>false</default>
+                <label>Copado</label>
+            </value>
+            <value>
+                <fullName>Data Migrations/ETL</fullName>
+                <default>false</default>
+                <label>Data Migrations/ETL</label>
+            </value>
+            <value>
+                <fullName>Data Model Design</fullName>
+                <default>false</default>
+                <label>Data Model Design</label>
+            </value>
+            <value>
+                <fullName>Dynamic Document Generation Tools</fullName>
+                <default>false</default>
+                <label>Dynamic Document Generation Tools</label>
+            </value>
+            <value>
+                <fullName>Einstein Products/Machine Learning</fullName>
+                <default>false</default>
+                <label>Einstein Products/Machine Learning</label>
+            </value>
+            <value>
+                <fullName>Email Marketing</fullName>
+                <default>false</default>
+                <label>Email Marketing</label>
+            </value>
+            <value>
+                <fullName>Heroku</fullName>
+                <default>false</default>
+                <label>Heroku</label>
+            </value>
+            <value>
+                <fullName>Integrations</fullName>
+                <default>false</default>
+                <label>Integrations</label>
+            </value>
+            <value>
+                <fullName>Lead/Opportunity Management</fullName>
+                <default>false</default>
+                <label>Lead/Opportunity Management</label>
+            </value>
+            <value>
+                <fullName>Lightning Component Development</fullName>
+                <default>false</default>
+                <label>Lightning Component Development</label>
+            </value>
+            <value>
+                <fullName>Mobile</fullName>
+                <default>false</default>
+                <label>Mobile</label>
+            </value>
+            <value>
+                <fullName>Permissions and Sharing</fullName>
+                <default>false</default>
+                <label>Permissions and Sharing</label>
+            </value>
+            <value>
+                <fullName>Process Builder</fullName>
+                <default>false</default>
+                <label>Process Builder</label>
+            </value>
+            <value>
+                <fullName>Reporting and Analytics</fullName>
+                <default>false</default>
+                <label>Reporting and Analytics</label>
+            </value>
+            <value>
+                <fullName>Requirements Discovery &amp; Capture</fullName>
+                <default>false</default>
+                <label>Requirements Discovery &amp; Capture</label>
+            </value>
+            <value>
+                <fullName>Scrum Master</fullName>
+                <default>false</default>
+                <label>Scrum Master</label>
+            </value>
+            <value>
+                <fullName>SSO/Authentication</fullName>
+                <default>false</default>
+                <label>SSO/Authentication</label>
+            </value>
+            <value>
+                <fullName>Technical Writing</fullName>
+                <default>false</default>
+                <label>Technical Writing</label>
+            </value>
+            <value>
+                <fullName>Testing</fullName>
+                <default>false</default>
+                <label>Testing</label>
+            </value>
+            <value>
+                <fullName>UI Design</fullName>
+                <default>false</default>
+                <label>UI Design</label>
+            </value>
+            <value>
+                <fullName>UX</fullName>
+                <default>false</default>
+                <label>UX</label>
+            </value>
+            <value>
+                <fullName>Visual Flow Designer</fullName>
+                <default>false</default>
+                <label>Visual Flow Designer</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

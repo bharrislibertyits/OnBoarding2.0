@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Project_Role__c</fullName>
+    <description>Select Roles for which you are qualified (You&apos;ll CRUSH it!) and those Roles you could be successful in with some mentoring.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Select Roles for which you are qualified (You&apos;ll CRUSH it!) and those Roles you could be successful in with some mentoring.</inlineHelpText>
+    <label>Project Role</label>
+    <required>true</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Admin</fullName>
+                <default>false</default>
+                <label>Admin</label>
+            </value>
+            <value>
+                <fullName>Advanced Admin</fullName>
+                <default>false</default>
+                <label>Advanced Admin</label>
+            </value>
+            <value>
+                <fullName>Solution Architect</fullName>
+                <default>false</default>
+                <label>Solution Architect</label>
+            </value>
+            <value>
+                <fullName>Developer (Junior)</fullName>
+                <default>false</default>
+                <label>Developer (Junior)</label>
+            </value>
+            <value>
+                <fullName>Developer (Mid)</fullName>
+                <default>false</default>
+                <label>Developer (Mid)</label>
+            </value>
+            <value>
+                <fullName>Developer (Senior/Lead)</fullName>
+                <default>false</default>
+                <label>Developer (Senior/Lead)</label>
+            </value>
+            <value>
+                <fullName>Technical Architect</fullName>
+                <default>false</default>
+                <label>Technical Architect</label>
+            </value>
+            <value>
+                <fullName>Quality Assurance (Junior)</fullName>
+                <default>false</default>
+                <label>Quality Assurance (Junior)</label>
+            </value>
+            <value>
+                <fullName>Quality Assurance (Mid)</fullName>
+                <default>false</default>
+                <label>Quality Assurance (Mid)</label>
+            </value>
+            <value>
+                <fullName>Quality Assurance (Senior/Lead)</fullName>
+                <default>false</default>
+                <label>Quality Assurance (Senior/Lead)</label>
+            </value>
+            <value>
+                <fullName>BA (Junior)</fullName>
+                <default>false</default>
+                <label>BA (Junior)</label>
+            </value>
+            <value>
+                <fullName>BA (Mid)</fullName>
+                <default>false</default>
+                <label>BA (Mid)</label>
+            </value>
+            <value>
+                <fullName>BA (Senior/Lead)</fullName>
+                <default>false</default>
+                <label>BA (Senior/Lead)</label>
+            </value>
+            <value>
+                <fullName>Release Manager</fullName>
+                <default>false</default>
+                <label>Release Manager</label>
+            </value>
+            <value>
+                <fullName>Scrum Master</fullName>
+                <default>false</default>
+                <label>Scrum Master</label>
+            </value>
+            <value>
+                <fullName>Project Manager</fullName>
+                <default>false</default>
+                <label>Project Manager</label>
+            </value>
+            <value>
+                <fullName>Portfolio Manager</fullName>
+                <default>false</default>
+                <label>Portfolio Manager</label>
+            </value>
+            <value>
+                <fullName>Tech Support</fullName>
+                <default>false</default>
+                <label>Tech Support</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

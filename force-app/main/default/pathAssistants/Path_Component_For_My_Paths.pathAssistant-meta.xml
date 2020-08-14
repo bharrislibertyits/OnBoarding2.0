@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>My_Path__c</entityName>
+    <fieldName>Test_Picklist__c</fieldName>
+    <masterLabel>Path Component For My Paths</masterLabel>
+    <pathAssistantSteps>
+        <info>&lt;ol&gt;&lt;li&gt;Agile Training&lt;/li&gt;&lt;li&gt;Agile Practitioners Slide Deck &lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</info>
+        <picklistValueName>Agile Guidance</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;ol&gt;&lt;li&gt;Signing up for Certification Test&lt;/li&gt;&lt;li&gt;Specific Certifications Path&lt;/li&gt;&lt;/ol&gt;</info>
+        <picklistValueName>Certification Guidance</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;ol&gt;&lt;li&gt;Update Your Contact Record in the Wawa Org &lt;/li&gt;&lt;li&gt;Charge Number Information&lt;/li&gt;&lt;li&gt;How Liberty Connects to You&lt;/li&gt;&lt;li&gt;Meeting the Salesforce Team&lt;/li&gt;&lt;li&gt;Create an Introductory Salesforce Presentation&lt;/li&gt;&lt;li&gt;Understand the Salesforce Sharepoint&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</info>
+        <picklistValueName>Liberty Welcome</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;ol&gt;&lt;li&gt;Sign Up for Udemy - &lt;a href=&quot;https://tinyurl.com/y4k9dj4b&quot; target=&quot;_blank&quot;&gt;I﻿nstructions&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Install Slack - &lt;a href=&quot;https://tinyurl.com/y3bnfwtv&quot; target=&quot;_blank&quot;&gt;Instructions&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Sign Up to Trailhead - &lt;a href=&quot;https://tinyurl.com/y3snyvl5&quot; target=&quot;_blank&quot;&gt;Sign Up&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Sign Up for Kryterion - &lt;a href=&quot;https://tinyurl.com/y5mq9jr4&quot; target=&quot;_blank&quot;&gt;Instructions&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;</info>
+        <picklistValueName>Prerequisites</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;ol&gt;&lt;li&gt;Lightning Experience Trailhead&lt;/li&gt;&lt;li&gt;Build with Better UX Trailhead&lt;/li&gt;&lt;li&gt;Platform App Builder Trailhead&lt;/li&gt;&lt;li&gt;Atlassian&amp;#39;s Implementation of Agile Trailhead&lt;/li&gt;&lt;li&gt;Build Your Career with Salesforce Trailhead&lt;/li&gt;&lt;li&gt;Learn Salesforce Agile Practices&lt;/li&gt;&lt;li&gt;Salesforce Advantage Trailhead&lt;/li&gt;&lt;li&gt;New to Salesforce Trailhead&lt;/li&gt;&lt;li&gt;Get Started Trailhead&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</info>
+        <picklistValueName>Salesforce Guidance</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>__MASTER__</recordTypeName>
+</PathAssistant>

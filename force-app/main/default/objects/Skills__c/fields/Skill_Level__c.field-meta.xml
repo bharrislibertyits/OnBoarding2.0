@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Skill_Level__c</fullName>
+    <description>Skill level</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Select current skill level: Low - Little to no experience. Medium - Some experience, but needs further development. High - Full working understanding of subject. Expert - Could competently educate others about the subject.</inlineHelpText>
+    <label>Skill Level</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Expert</fullName>
+                <color>#FF9900</color>
+                <default>false</default>
+                <label>Expert</label>
+            </value>
+            <value>
+                <fullName>High</fullName>
+                <default>true</default>
+                <label>High</label>
+            </value>
+            <value>
+                <fullName>Medium</fullName>
+                <default>false</default>
+                <label>Medium</label>
+            </value>
+            <value>
+                <fullName>Low</fullName>
+                <default>false</default>
+                <label>Low</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_Certs</fullName>
+    <columns>NAME</columns>
+    <columns>Certs__c</columns>
+    <columns>Contact__c</columns>
+    <columns>Classification__c</columns>
+    <columns>Expiration_Date__c</columns>
+    <columns>Days_To_Expiration__c</columns>
+    <columns>Time_to_Complete__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>IsCurrentUser__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>My Certs</label>
+</ListView>

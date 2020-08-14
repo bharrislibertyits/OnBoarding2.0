@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Discipline__c</fullName>
+    <description>The Discipline the path belongs to</description>
+    <externalId>false</externalId>
+    <label>Discipline</label>
+    <referenceTo>Discipline__c</referenceTo>
+    <relationshipLabel>Paths</relationshipLabel>
+    <relationshipName>Paths</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

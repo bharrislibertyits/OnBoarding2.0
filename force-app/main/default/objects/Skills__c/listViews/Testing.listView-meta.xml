@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Testing</fullName>
+    <columns>Contact__c</columns>
+    <columns>Skill__c</columns>
+    <columns>Skill_Level__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Skill__c</field>
+        <operation>equals</operation>
+        <value>Code Control/Dev Process,Continuous Integration,Copado,Scrum Master</value>
+    </filters>
+    <label>Testing</label>
+</ListView>

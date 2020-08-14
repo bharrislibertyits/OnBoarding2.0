@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Contact_Notification_Alert_90_day</fullName>
+        <ccEmails>salesforce.admin@libertyits.com</ccEmails>
+        <description>Contact Notification Alert 90 day</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Notify_Contact_90_Day_Template</template>
+    </alerts>
+</Workflow>

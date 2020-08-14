@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>aka__c</fullName>
+    <description>Projects and Workstreams almost always end up with multiple names, nicknames, handles and appellations. This field is for those variations to help clear confusion.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Projects and Workstreams almost always end up with multiple names, nicknames, handles and appellations. This field is for those variations to help clear confusion.</inlineHelpText>
+    <label>aka</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

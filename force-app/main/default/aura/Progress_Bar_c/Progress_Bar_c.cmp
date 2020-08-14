@@ -1,0 +1,3 @@
+<aura:component>
+    <lightning:progressBar value="50" size="large" />
+</aura:component>
